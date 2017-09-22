@@ -25,25 +25,37 @@
 
 # Firewall layers protecting web servers and databases
 
+### Firewalls are typically network devices that have two Ethernet ports, one facing the hostile Internet and the other facing your web server or application server. The firewall prevents packets that are undesirable from reaching your servers, yet allows acceptable packets to flow in both directions.
+
 ![](images/ServerDefenses.png)
 
 # Load balancer
+
+### Load balancers are often hardware network devices that have one Ethernet port facing the Internet, and a dozen or more Ethernet ports facing individual servers. The load balancer uses information from the servers to send new client session requests to different servers spreading the load evenly among them, avoiding overloading any one server.
 
 ![](images/LoadBalancer.png)
 
 # Second data center as backup deployment
 
+### Commercial web sites that have business critical operation requirements often use two or more data centers in different areas to provide backup and load sharing. If the primary data center experiences a failure, from say an Earthquake, the alternative data center picks up the load and the clients are able to continue using the site, unaware that the primary site is down.
+
 ![](images/RedundantDataCenter.png)
 
 # Dynamic web server has both unchanging content and user specific content delivered from a application server and database
+
+### Most web sites have static content, such as pictures, format data (CSS) and unchanging web page content that is best served directly from a web server. Some portion of the web sites content is usually client specific based on their login credentials. The user specific content is dynamic and served by a application server in conjunction with a database server.
 
 ![](images/DynamicWebContent.png)
 
 # SQL Injection Attack
 
+### One of the more common and easily avoidable web site hack attacks is called a SQL injection attack. In this case a clever hacker looks at the web page and figures out that certain fields in a web form do not scrub special characters such as quotes and then feeds a specially constructed string of characters into a field that passes through to the database, causing it to execute a command that the programmers would never want to be possible. In the case below, the hacker is attempting to have the database provide the list of users as a response, revealing confidential information.
+
 ![](images/SQLInjection.png)
 
 # Distributed Denial Of Service Attack (DDOS)
+
+### A DDOS attack is often performed by hackers that are attempting to blackmail or damage a company by knocking their web site offline by overloading it with fake traffic. The hacker uses a botnet that is controlled by a botnet controller computer. Botnets are usually formed by unsuspecting end users computers which have a secret infection of malware that operates without their knowledge, normally leaving their computer unaffected, until it is needed to be part of a DDOS attack.
 
 ![](images/DDOS.png)
 
