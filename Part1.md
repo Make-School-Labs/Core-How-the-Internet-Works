@@ -4,7 +4,7 @@
 
 ---
 
-## Early communication
+### Early communication
 
 The Internet is the most recent evolution of electronic communications technology built on the shoulders of the television, telephone, shortwave radio and before that the telegraph. But even before the telegraph, humans had figured out a way to send messages to other tribe members over tens of miles using smoke signals. Smoke signals were a binary code that used groups of two sizes of smoke releases being controlled using tarp or blanket over a fire. The Internet uses binary light pulses to send data around the world on fiber optic cables using the same binary coding technique.
 
@@ -14,35 +14,35 @@ One beneficial aspect of smoke signals or telegraph is the message is received v
 
 ![](images/IncaMessenger.png)
 
-## The Internet is a convergence medium
+### The Internet is a convergence medium
 
 There are a few typical ways people want to communicate: using their voice, in writing or images. Communication also happens over long distances and over long periods of time through books for example. The Internet is a communication medium that can represent all previous forms and is a convergence medium.
 
 ![](images/Convergence.png)
 
-## The Broadband modem and home router
+### The Broadband modem and home router
 
 The Internet provides all of these modes of communication over wires using bursts of electrons, over fiber optic cables using light pulses and over modulated radio waves. The Internet is a binary communications medium in that it sends information using binary digits, 0 and 1 in groups of 8 based on 8 bits in a byte being a computer technology standard.
 
 ![](images/TypesOfConnections.png)
 
-## Information addressing and encoding
+### Information addressing and encoding
 
 Information on the Internet is encoded into chunks of 8 bit bytes that are then grouped into strings of characters and larger numbers. A computer wishing to send information has a unique IP address, which is encoded in four bytes, and it sends the information to a another computer which has a different unique IP address. IP stands for Internet Protocol. The Internet is much like our modern postal service with each house, apartment and building having a mailbox with a globally unique address in which an envelope or package can be sent or received.
 
 ![](images/Mailboxes.png)
 
-## Packets are like postal envelopes
+### Packets are like postal envelopes
 
 The Internet moves information packets just like postal envelopes. Postal envelopes move from the sender, through a network of postal offices where they are repeatedly sorted and moved by various trucks, planes and postal worker hands till they reach the destination mail box. Internet packets leave the sending computers networking hardware and are moved through dozens of Internet routers, nationwide fiber optic networks, and inter-country and inter-continential fiber optic cables until they reach the destination computers network hardware. This system and process is called a packet switched network.
 
 ![](images/InterCountryAndContinentCables.png)
 
-## Internet standards
+### Internet standards
 
 The Internet has a standards organization that develops protocols to structure how information is encoded so computers can have a standard way of encoding and decoding information for various purposes, such as web pages versus live voice. The Internet tends to use many packets to accomplish sending information as the amount of data a single packet can hold is about 1500 bytes/characters, which is enough for a text message, but not enough for a web page, images, voice and video which require hundreds of thousands or millions of bytes/characters. Protocols are ways of specifying various sections and encoding patterns for information as well as providing security and reliable delivery for certain types of information.
 
-# Internet protocols and layers
+### Internet protocols and layers
 
 The protocols are like an onion, with different layers handling certain aspects of moving information in useful ways.  For example, the HTTP protocol is used by web servers and browsers. HTTP protocol uses TCP which uses IP protocol which uses lower network layers to send web pages to your browser. There is a standard for networking called the OSI 7 layer stack for networking hardware and software which has been implemented in Ethernet, WiFi and all popular operating systems as API's for applications to use.
 
@@ -52,13 +52,13 @@ The networking standards organization created the layered networking model where
 
 ![](images/VOIP.png)
 
-## Routers move packets between networks
+### Routers move packets between networks
 
 ![](images/NetworkTransport.png)
 
 Let's watch this video which shows how packets move across a local area network: [Router Operation in a Simple Internetwork](https://www.youtube.com/watch?v=GTyE4eHxMuY)
 
-## The importance of Network Address Translation (NAT)
+### The importance of Network Address Translation (NAT)
 
 Now that we have seen how packets move through a local area network or LAN, let's explore why we need some additional technology called Network Address Translation, or NAT when we send packets across the Wide Area Network, or WAN (Internet). Hint, 4 billion IP addresses arn't nearly enough for all the servers and devices we already use which number in the tens of billions.
 
@@ -66,7 +66,7 @@ Now that we have seen how packets move through a local area network or LAN, let'
 
 Let's watch this video on [Network Address Translation (NAT) Packet Routing](https://www.youtube.com/watch?v=QBqPzHEDzvo)
 
-## The HTTP request and response cycle
+### The HTTP request and response cycle
 
 So now that we can see how packets move between computers on a LAN and across the Internet using NAT routers (which also protect computers from being attacked by hackers as a nice side effect), it is time to explore how a browser requests a web page from a web server. We are going to ignore domain name resolution for now, which takes a name like www.google.com and turns that into an IP address like 40.30.20.10, and just focus on the HTTP request and response cycle.
 
