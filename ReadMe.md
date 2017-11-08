@@ -1,4 +1,8 @@
-# How The Internet Works Classes 1 and 2
+# Core: How the Internet Works
 
-### [Class 1](Class1.md): Networking and Internet communication, hardware, fundamental layers and protocols 
-### [Class 2](Class2.md): Advanced Internet topics including Domain Name System operation and network devices
+## [Part 1]: Networking and Internet Communication, HTTP Request-Response Cycle
+
+## [Part 2]: Domain Name System, Web Server Architecture, Security, DDoS Attacks
+
+[Part 1]: https://product-college-labs.github.io/Core-How-the-Internet-Works/Part1
+[Part 2]: https://product-college-labs.github.io/Core-How-the-Internet-Works/Part2
