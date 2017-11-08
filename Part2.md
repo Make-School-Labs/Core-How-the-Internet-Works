@@ -1,4 +1,6 @@
-# How the Internet Works Part 2
+## [Part 2]: Domain Name System, Web Server Architecture, Security, DDoS Attacks
+
+[Part 2]: https://product-college-labs.github.io/Core-How-the-Internet-Works/Part2
 
 ---
 
@@ -85,3 +87,9 @@ UDP just sends a packet to a destination. TCP establishes a session which guaran
 ![](images/TCPvsUDP.png)
 
 Let's watch this video on the differences between [UDP and TCP Transport Layer Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+
+---
+
+## [Part 1]: Networking and Internet Communication, HTTP Request-Response Cycle
+
+[Part 1]: https://product-college-labs.github.io/Core-How-the-Internet-Works/Part1

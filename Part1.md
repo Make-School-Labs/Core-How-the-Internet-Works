@@ -1,4 +1,6 @@
-# How the Internet Works Part 1
+## [Part 1]: Networking and Internet Communication, HTTP Request-Response Cycle
+
+[Part 1]: https://product-college-labs.github.io/Core-How-the-Internet-Works/Part1
 
 ---
 
@@ -72,3 +74,8 @@ So now that we can see how packets move between computers on a LAN and across th
 
 Let's watch this video on the [HTTP Request and Response Cycle](https://www.youtube.com/watch?v=DrI2lUXL1no)
 
+---
+
+## [Part 2]: Domain Name System, Web Server Architecture, Security, DDoS Attacks
+
+[Part 2]: https://product-college-labs.github.io/Core-How-the-Internet-Works/Part2
