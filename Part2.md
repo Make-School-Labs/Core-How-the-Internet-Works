@@ -8,7 +8,7 @@
 
 In Part 1 we covered the binary nature of communication over computer networks and the Internet and how information is sent in packets that have to and from IP/port addresses in them. We covered the 7 layer ISO networking model and how protocols organize information (bytes of data) into groups providing a standard way for software to encode and decode information.
 
-In Part 2 we'll cover the Domain Name System (DNS), how hackers are thrwarted by routers and firewalls and how web sites handle huge numbers of users.  We'll also cover how large web sites fend off denial of service attacks and regional data center outages using load balancers, routers and DNS to provide fault-tolerance and fail-over. We'll cover several security defenses in user networks and server deployments and we'll cover dynamic web page servers which include a database to generate user specific content.
+In Part 2 we'll cover the Domain Name System (DNS), how hackers are thwarted by routers and firewalls and how web sites handle huge numbers of users.  We'll also cover how large web sites fend off denial of service attacks and regional data center outages using load balancers, routers and DNS to provide fault-tolerance and fail-over. We'll cover several security defenses in user networks and server deployments and we'll cover dynamic web page servers which include a database to generate user specific content.
 
 ### The Domain Name System (DNS)
 
@@ -54,7 +54,7 @@ Most web sites have static content, such as pictures, format data (CSS) and unch
 
 ### SQL Injection Attack
 
-One of the more common and easily avoidable web site hack attacks is called a SQL injection attack. In this case a clever hacker looks at the web page and figures out that certain fields in a web form do not scrub special characters such as quotes and then feeds a specially constructed string of characters into a field that passes through to the database, causing it to execute a command that the programmers would never want to be possible. In the case below, the hacker is attempting to have the database provide the list of users as a response, revealing confidential information.
+One of the more common and easily avoidable web site hack attacks is called a SQL injection attack. In this case, a clever hacker looks at the web page and figures out that certain fields in a web form do not scrub special characters such as quotes and then feeds a specially constructed string of characters into a field that passes through to the database, causing it to execute a command that the programmers would never want to be possible. In the case below, the hacker is attempting to have the database provide the list of users as a response, revealing confidential information.
 
 ![](images/SQLInjection.png)
 
